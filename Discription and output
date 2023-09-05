@@ -1,0 +1,145 @@
+# SuperMarketAppManagement
+This program is used to manage the shops item.
+In this program just used simple logic behind the supermarket application how the application 
+performs and what are the necessary task need to perform, in this program the following task can be perform,
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+accordingly. for example the output is shown below,
+
+OUTPUT
+=========Welcome to the supermarket========
+1. View items        
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 2
+==========Add items==========
+To add an item fill the form
+Item name : Milk
+Item quantity : 4
+Price $ : 20
+Item has been successfully added.
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 1
+==========View Items========
+The number of items in the inventory are : 1
+Here are all the items available in the supermarket shop.
+name : Milk
+quantity : 4
+price : 20
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 2
+==========Add items==========
+To add an item fill the form
+Item name : Bread
+Item quantity : 3
+Price $ : 30
+Item has been successfully added.
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 3
+=============purchase items==============
+[{'name': 'Milk', 'quantity': 4, 'price': 20}, {'name': 'Bread', 'quantity': 3, 'price': 30}]
+which item do you want to purchase? Enter the name of that item: Milk
+Enter the quantity wanted : 2
+Pay 40 at checkout counter.
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 1
+==========View Items========
+The number of items in the inventory are : 2
+Here are all the items available in the supermarket shop.
+name : Milk
+quantity : 2
+price : 20
+name : Bread
+quantity : 3
+price : 30
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 4
+==================search items================
+Enter the items name to search in inventory : Bread
+item not found.
+The item named Bread is displayed below with its details
+{'name': 'Bread', 'quantity': 3, 'price': 30}
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 5
+=============items==============
+Enter the name of the item that you want to edit : Milk
+Here are the current details of Milk
+{'name': 'Milk', 'quantity': 2, 'price': 20}
+Item name : Biscuit
+Item quantity : 5
+Price $ : 25
+Item has been successfully updated.
+{'name': 'Biscuit', 'quantity': 5, 'price': 25}
+Item not found
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 1
+==========View Items========
+The number of items in the inventory are : 2
+Here are all the items available in the supermarket shop.
+name : Biscuit
+quantity : 5
+price : 25
+name : Bread
+quantity : 3
+price : 30
+=========Welcome to the supermarket========
+1. View items
+2. Add items for sale
+3. Purchase items
+4. Search items
+5. Edit items
+6. Exit
+Enter the number of your choice : 6
+=============THANKYOU VISIT AGAIN==========
+
+
